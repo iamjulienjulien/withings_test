@@ -85,6 +85,8 @@ class WithingsCall
 	{
 		// Access Code KO
 		if($_GET["state"] !== $this->state) {
+			
+			// Send error
 			$this->response["status"] = "error";
 			$this->response["error"] = 'Access code ❌';
 			http_response_code(500);
@@ -132,6 +134,7 @@ class WithingsCall
 		// Access token KO
 		if($json->status) {
 
+			// Send error
 			$this->response["status"] = "error";
 			$this->response["error"] = 'Access token ❌';
 			http_response_code(500);
