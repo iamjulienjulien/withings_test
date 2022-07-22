@@ -40,7 +40,7 @@ class WithingsCall
 		$this->state = sha1('julienjulien_wants_to_be_in_withings_developers_team');
 
 		// Get App Credentials
-		$app_credentials = json_decode(file_get_contents('./core/app_credentials.json'));
+		$app_credentials = json_decode(file_get_contents('./app_credentials.json'));
 
 		// Save App Credentials
 		$this->client_id = $app_credentials->client_id;
