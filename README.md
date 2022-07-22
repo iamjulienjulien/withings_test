@@ -3,6 +3,7 @@ Made for Withings on 2022-07-22
 
 ## ⚙️ Next Steps To Do 
 - [ ] Add function to refresh token when expired
+- [ ] Hide access code in redirect parameters
 - [ ] Convert timestamp in response to human-readable datetime
 - [ ] Create a React front-end to show data received
 - [ ] Remove Demo data for production
