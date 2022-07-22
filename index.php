@@ -1,4 +1,4 @@
 <?php 
-require_once 'core/WithingsCall.class.php';
+require_once 'WithingsCall.class.php';
 $WithingsCall = new WithingsCall();
 ?>
